@@ -52,10 +52,10 @@
         // Get params
           $this->params = $url ? array_values($url) : [];
 
-          echo "<br>";
-          print ' Core.php- line 56 printing: $this->params = ';
-          print_r($this->params);
-          echo "<br>";
+          //echo "<br>";
+          //print ' Core.php- line 56 printing: $this->params = ';
+          //print_r($this->params);
+          //echo "<br>";
 
           // Call a callback with array of params
           call_user_func_array([$this->currentController, $this->currentMethod], $this->params);

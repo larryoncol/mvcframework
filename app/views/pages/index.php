@@ -1,11 +1,12 @@
 
 <?php 
 
- //echo $data['title'];
- //echo $data['name'];
- 
- echo SITENAME; 
- echo URLROOT;
+//var_dump($data);
+
+foreach ($data['users'] as $user) {
+    echo "Information: "  . $user->user_name . "  " . $user->user_email;
+    echo "<br>";
+}
  
  ?>
 
