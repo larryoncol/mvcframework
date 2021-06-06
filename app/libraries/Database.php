@@ -36,10 +36,11 @@ class Database {
         }
 
         //Method that allows us to write queries
+        //We pass the SQL query as parameter
         public function query($sql){
-
-            $this->statement = $this->dbHandler->prepare($sql);
-                
+            
+            //We prepare the SQl qery and then save it to statement
+            $this->statement = $this->dbHandler->prepare($sql);        
         }
 
 
@@ -72,7 +73,6 @@ class Database {
 
         //Execute the prepared staement
         public function execute(){
-
             return $this->statement->execute();
         }
 
