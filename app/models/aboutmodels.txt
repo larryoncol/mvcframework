@@ -1,0 +1,9 @@
+ -Responsible for getting and manipulating the data
+ -Brain of the application
+ -Interacts with the database (SELECT, INSERT etc)
+ -Interacts with the controller
+ - In most cases controller request data via the model
+ 
+ Do Not
+ - Models should not update the views, controllers should do so
+ 

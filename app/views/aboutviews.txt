@@ -1,0 +1,4 @@
+What user sees 
+Controller communicates with the view
+Can be passed dynamic values from controller
+Usually consist of HTML/CSS

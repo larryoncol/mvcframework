@@ -1,0 +1,5 @@
+-Controller Updates the view
+-Controllers takes in user input from URL or View 
+-Procsess Request (GET, POST, PUT, DELETE)
+-Gets ata from the model
+-Passes Data to the view
